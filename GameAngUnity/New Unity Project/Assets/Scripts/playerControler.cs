@@ -28,7 +28,7 @@ public class playerControler : MonoBehaviour {
 
 	//Update is called once per frame
 	void Update(){
-		if (grounded && Input.GetAxis ("Jump") > 0) {
+		if (grounded && Input.GetKeyDown(KeyCode.Space)) {
 			grounded = false;
 			myAnim.SetBool ("isGrounded", grounded);
 			myRB.AddForce(new Vector2(0,jumpHeight));
@@ -40,9 +40,9 @@ public class playerControler : MonoBehaviour {
 
 		//check if we are grounded - if no, then we are falling
 		grounded = Physics2D.OverlapCircle(groundCheck.position,groundCheckRadious,groundLayer);
-		myAnim.SetBool ("isGrounded", grounded);
+		myAnim.SetBool("isGrounded", grounded);
 
-		myAnim.SetFloat ("verticalSpeed", myRB.velocity.y);
+		myAnim.SetFloat("verticalSpeed", myRB.velocity.y);
 
         float move = Input.GetAxis("Horizontal");
         myAnim.SetFloat("speed", Mathf.Abs(move));
