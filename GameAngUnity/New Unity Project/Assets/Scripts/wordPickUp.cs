@@ -13,6 +13,8 @@ public class wordPickUp : MonoBehaviour {
 
 		scoreManager.AddPoints (pointsToAdd);
 
+		Debug.Log ("Zebrane");
+
 		Destroy (gameObject);
 	}
 }

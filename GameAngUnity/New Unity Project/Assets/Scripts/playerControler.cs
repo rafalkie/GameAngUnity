@@ -13,6 +13,7 @@ public class playerControler : MonoBehaviour {
 	public LayerMask groundLayer;
 	public Transform groundCheck;
 	public float jumpHeight;
+	float nextTimetoJump;
 
     Rigidbody2D myRB;
     Animator myAnim;
@@ -23,15 +24,19 @@ public class playerControler : MonoBehaviour {
         myRB = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
 
+		nextTimetoJump = 1;
         facingRight = true;
 	}
 
 	//Update is called once per frame
 	void Update(){
-		if (grounded && Input.GetKeyDown(KeyCode.Space)) {
+
+		nextTimetoJump -= Time.deltaTime;
+		if (nextTimetoJump < 0 && grounded && Input.GetKeyDown(KeyCode.Space)) {
 			grounded = false;
 			myAnim.SetBool ("isGrounded", grounded);
 			myRB.AddForce(new Vector2(0,jumpHeight));
+			nextTimetoJump = 1;
 		}}
 
 	
@@ -48,7 +53,8 @@ public class playerControler : MonoBehaviour {
         myAnim.SetFloat("speed", Mathf.Abs(move));
 
         myRB.velocity = new Vector2(move*maxSpeed,myRB.velocity.y);
-		
+
+
         if(move>0 && !facingRight)
         {
             flip();
