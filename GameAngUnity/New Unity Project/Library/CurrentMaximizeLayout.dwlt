@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 13456
+  controlID: 18476
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 0
-  controlID: 13457
+  controlID: 18477
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,14 +181,14 @@ MonoBehaviour:
     height: 746
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2732.5589789248115
+  lastFramingTime: 21045.851451204373
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.072117, y: -8.837975, z: 0.0625}
+    m_Target: {x: 11.802117, y: -13.040403, z: 0.001953125}
     speed: 2
-    m_Value: {x: -13.072117, y: -8.837975, z: 0.0625}
+    m_Value: {x: 11.802117, y: -13.040403, z: 0.001953125}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -216,9 +216,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 15.065633
+    m_Target: 14.85094
     speed: 2
-    m_Value: 15.065633
+    m_Value: 14.85094
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 13415
+  controlID: 18449
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -444,9 +444,9 @@ MonoBehaviour:
     height: 400
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 1}
-    m_SelectedIDs: c8c1fcff
-    m_LastClickedID: -212536
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 6c2c0000
+    m_LastClickedID: 11372
     m_ExpandedIDs: 1834feff9efbffff00000000e22b0000f82b0000322c0000742c0000902c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -534,19 +534,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/priFab
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Materials
+  - Assets/priFab
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Lckor\Documents\GameAngUnity\GameAngUnity\New Unity
     Project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 624f0000
-    m_LastClickedID: 20322
+    m_SelectedIDs: e82a0000
+    m_LastClickedID: 10984
     m_ExpandedIDs: 00000000ba28000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -600,8 +600,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c8c1fcff
-    m_LastClickedInstanceID: -212536
+    m_SelectedInstanceIDs: 6c2c0000
+    m_LastClickedInstanceID: 11372
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000008280000ce270000c4270000382f0000002900002006000000000000b828000036060000be280000
     m_RenameOverlay:
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 271}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 13299
+  controlID: 18426
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
