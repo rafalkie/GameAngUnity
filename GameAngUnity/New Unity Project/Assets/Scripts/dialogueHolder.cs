@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class DialogueHolder : MonoBehaviour {
 
+	public string dialog;
+	public string dialog1;
+	public string dialog2;
+	public string dialog3;
 
-	public string dialogue;
-	public string wrongDialogue;
+
+	private QuestDialogueManager dQuest;
 	private DialogueManager dMan;
 
 	public string[] dialogueLines;
@@ -15,6 +19,7 @@ public class DialogueHolder : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		dMan = FindObjectOfType<DialogueManager> ();
+		dQuest = FindObjectOfType<QuestDialogueManager> ();
 	}
 
 	// Update is called once per frame
@@ -35,6 +40,7 @@ public class DialogueHolder : MonoBehaviour {
 					}
 				}	
 			}
+
 		} else {
 			if (other.gameObject.name == "character") {
 				if (Input.GetKeyUp (KeyCode.Return)) {

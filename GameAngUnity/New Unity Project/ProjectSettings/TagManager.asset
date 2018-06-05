@@ -6,6 +6,7 @@ TagManager:
   tags:
   - pickUp
   - Ground
+  - word
   layers:
   - Default
   - TransparentFX

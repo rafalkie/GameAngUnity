@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour {
 
 	public GameObject dBox;
-	public Text dText; 
+	public Text dText;
+	private QuestDialogueManager dQuest;
 
 	public string[] dialogLines;
 	public int currentLine;
@@ -27,12 +28,17 @@ public class DialogueManager : MonoBehaviour {
 		{
 			dBox.SetActive (false);
 			dialogActive = false;
+			if(scoreManager.score == 5){
+				dQuest.dialogActive = true;
+				dQuest.dQuest.SetActive (true);
+			}
+
 
 			currentLine = 0;
 		}
 
 		dText.text = dialogLines [currentLine];
-
+		dQuest = FindObjectOfType<QuestDialogueManager> ();
 		}
 
 
