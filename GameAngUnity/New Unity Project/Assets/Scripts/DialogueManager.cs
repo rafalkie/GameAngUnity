@@ -8,6 +8,9 @@ public class DialogueManager : MonoBehaviour {
 	public GameObject dBox;
 	public Text dText; 
 
+	public string[] dialogLines;
+	public int currentLine;
+
 	public bool dialogActive;
 	// Use this for initialization
 	void Start () {
@@ -18,18 +21,33 @@ public class DialogueManager : MonoBehaviour {
 	void Update () {
 		if (dialogActive && Input.GetKeyDown(KeyCode.Return))
 		{
+				currentLine++;
+		}
+		if (currentLine >= dialogLines.Length) 
+		{
 			dBox.SetActive (false);
 			dialogActive = false;
+
+			currentLine = 0;
+		}
+
+		dText.text = dialogLines [currentLine];
+
 		}
 
 
-	}
+
 
 	public void ShowBox(string dialogue)
 	{
 		dialogActive = true;
 		dBox.SetActive (true);
 		dText.text = dialogue;
+	}
+
+	public void ShowDialog(){
+		dialogActive = true;
+		dBox.SetActive (true);
 	}
 
 }
