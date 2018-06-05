@@ -8,12 +8,11 @@ public class playerControler : MonoBehaviour {
     public float maxSpeed;
 
 	//jumping variables
-	bool grounded = false;
-	float groundCheckRadious = 0.2f;
+	private bool grounded = false;
+	public float groundCheckRadious = 0.2f;
 	public LayerMask groundLayer;
 	public Transform groundCheck;
 	public float jumpHeight;
-	float nextTimetoJump;
 
     Rigidbody2D myRB;
     Animator myAnim;
@@ -23,21 +22,19 @@ public class playerControler : MonoBehaviour {
 	void Start () {
         myRB = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
-
-		nextTimetoJump = 1;
         facingRight = true;
 	}
 
 	//Update is called once per frame
 	void Update(){
 
-		nextTimetoJump -= Time.deltaTime;
-		if (nextTimetoJump < 0 && grounded && Input.GetKeyDown(KeyCode.Space)) {
-			grounded = false;
-			myAnim.SetBool ("isGrounded", grounded);
-			myRB.AddForce(new Vector2(0,jumpHeight));
-			nextTimetoJump = 1;
-		}}
+        if(grounded && Input.GetAxis("Jump") > 0)
+        {
+            grounded = false;
+            myAnim.SetBool("isGrounded", grounded);
+            myRB.AddForce(new Vector2(0, jumpHeight));
+        }
+    }
 
 	
 	// Update is called once per frame
