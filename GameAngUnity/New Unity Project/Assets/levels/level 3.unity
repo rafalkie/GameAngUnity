@@ -49238,10 +49238,10 @@ MonoBehaviour:
   dialog2: 
   dialog3: 
   dialogueLines:
-  - "I didn\u2019t expect you here/ on this level, you are doing very well.."
-  - I wonder how do you deal with my/this questions..?
+  - "Nie oczekiwa\u0142em Cie tutaj tak szybko, jeste\u015B bardzo dobry.."
+  - "Tak\u017Ce sprawd\u017Amy czy sobie poradzisz z moim zadaniem!"
   wrongLines:
-  - You need pick up all words
+  - "Pierwsze zbierz wszystkie s\u0142owa"
 --- !u!1 &1284809395
 GameObject:
   m_ObjectHideFlags: 0

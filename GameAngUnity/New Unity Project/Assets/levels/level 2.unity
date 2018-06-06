@@ -25462,11 +25462,12 @@ MonoBehaviour:
   dialog2: 
   dialog3: 
   dialogueLines:
-  - Hey there!
-  - Congratulations, You did it!
-  - To get to next level you must to arrange words in sentence.
+  - Witam!
+  - "Gratulacje, dotar\u0142e\u015B tu tak szybko"
+  - "\u017Beby dosta\u0107 si\u0119 do kolejnego poziomu musisz sobie poradzi\u0107
+    z moim zadaniem"
   wrongLines:
-  - You need pick all words
+  - "Pierwsze zbierz wszystkie s\u0142owa!"
 --- !u!61 &1283088266
 BoxCollider2D:
   m_ObjectHideFlags: 0

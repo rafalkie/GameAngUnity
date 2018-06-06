@@ -7788,12 +7788,11 @@ MonoBehaviour:
   dialog2: 
   dialog3: 
   dialogueLines:
-  - Calm down
-  - "This is only the half of the battle, u still have to answer my brother\u2019s
-    question"
-  - Even if you answer correctly to on my mystery.
+  - Spokojnie spokojnie
+  - "Tym razem jeste\u015B dopiero w po\u0142owie drogii"
+  - "Nawet je\u015Bli Ci sie uda, m\xF3j brat Cie za\u0142atwi"
   wrongLines:
-  - You need pick all words
+  - "Pierwsze zbierz wszystkie s\u0142owa"
 --- !u!61 &441011170
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20433,7 +20432,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1395974742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.73, y: -17.32, z: -0.21576543}
+  m_LocalPosition: {x: -1.62, y: -17.88, z: -0.21576543}
   m_LocalScale: {x: -127, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -28126,11 +28125,11 @@ MonoBehaviour:
   dialog2: 
   dialog3: 
   dialogueLines:
-  - My brother has never been good at riddles.
-  - "Just don\u2019t waste my time, u have ( many sec.?) to answer "
-  - be fast because I starting measure your time
+  - "M\xF3j brat nie by\u0142 wystarczaj\u0105co zagadkowy? haha"
+  - "Tylko nie tra\u0107 mojego czasu i odpawiadaj szybko"
+  - "Wi\u0119c zaczynajmy"
   wrongLines:
-  - You need pick pick all words
+  - "Pierwsze zbierz wszystkie s\u0142owa"
 --- !u!61 &1975213987
 BoxCollider2D:
   m_ObjectHideFlags: 0

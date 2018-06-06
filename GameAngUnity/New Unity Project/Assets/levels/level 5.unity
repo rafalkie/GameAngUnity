@@ -66674,12 +66674,12 @@ MonoBehaviour:
   dialog2: 
   dialog3: 
   dialogueLines:
-  - "So let\u2019s start"
-  - 'I hired LAME DUCKS!! '
-  - And as usual I have to do everything myself
-  - "Let\u2019s start the last fight. Show me what you can do"
+  - "Wi\u0119c zacznijmy!"
+  - "Ju\u017C nie b\u0119dziesz mie\u0107 tyle szcz\u0119\u015Bcia"
+  - "Zrobie wszystko co w mojej mocy by\u015B nie da\u0142/a rady"
+  - "Wi\u0119c zacznijmy ostateczn\u0105 walke, poka\u017C na co Cie sta\u0107!"
   wrongLines:
-  - You need pick pick all words
+  - "Pierwsze zbierz wszystkie s\u0142owa"
 --- !u!61 &1058337323
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68609,11 +68609,11 @@ MonoBehaviour:
   dialog2: 
   dialog3: 
   dialogueLines:
-  - 'I will not let my master down! '
-  - 'I showed u already the hardest task  I showed you the task that '
-  - "I\u2019m sure you will not able to do. "
+  - "O nie! Nie zamierzam Cie przepu\u015Bci\u0107 do mojego mistrza"
+  - Zaprezentuje Ci trudno zadanie
+  - "Tak\u017Ce nie \u0142ud\u017A si\u0119, \u017Ce dasz rade.."
   wrongLines:
-  - You need pick pick all words
+  - "Pierwsze zbierz wszystkie s\u0142owa"
 --- !u!1 &1090806036
 GameObject:
   m_ObjectHideFlags: 0
@@ -82666,11 +82666,11 @@ MonoBehaviour:
   dialog2: 
   dialog3: 
   dialogueLines:
-  - well, well, well.. who do we have here?
-  - "you\u2019re probably not so good at math"
-  - Answer correctly to questions and I will give u past
+  - no no no, a kogo my tu mamy
+  - "Bardzo dobrze sobie tutaj radzisz, pewnie musisz mie\u0107 problemy z matm\u0105"
+  - "Odpowiedz poprawnie a puszcz\u0119 Cie dalej"
   wrongLines:
-  - You need pick pick all words
+  - "Pierwsze zbierz wszystkie s\u0142owa!"
 --- !u!61 &1328273128
 BoxCollider2D:
   m_ObjectHideFlags: 0
