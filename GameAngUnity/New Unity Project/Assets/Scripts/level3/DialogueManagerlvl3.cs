@@ -28,7 +28,7 @@ public class DialogueManagerlvl3 : MonoBehaviour {
 		{
 			dBox.SetActive (false);
 			dialogActive = false;
-			if(scoreManager.score == 5){
+			if(scoreManager.score >= 10){
 				dQuest.dialogActive = true;
 				dQuest.dQuest.SetActive (true);
 			}

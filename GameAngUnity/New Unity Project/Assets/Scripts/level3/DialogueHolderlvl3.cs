@@ -27,7 +27,7 @@ public class DialogueHolderlvl3 : MonoBehaviour {
 
 	void OnTriggerStay2D(Collider2D other)
 	{
-		if (scoreManager.score == 5) {
+		if (scoreManager.score >= 10) {
 			if (other.gameObject.name == "character") {
 				if (Input.GetKeyUp (KeyCode.Return)) {
 					if (!dMan.dialogActive) 
