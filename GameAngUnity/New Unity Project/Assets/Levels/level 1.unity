@@ -995,7 +995,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsToAdd: 1
-  wordToShow: 
   wordSoundEffect: {fileID: 291188335}
 --- !u!61 &772509926
 BoxCollider2D:
@@ -1146,7 +1145,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press Enter To Contiune
+  m_Text: "Wci\u015Bnij ENTER aby kontynuowa\u0107."
 --- !u!222 &797608272
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1462,7 +1461,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsToAdd: 1
-  wordToShow: 
   wordSoundEffect: {fileID: 291188335}
 --- !u!61 &1135652736
 BoxCollider2D:
@@ -2038,7 +2036,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsToAdd: 1
-  wordToShow: 
   wordSoundEffect: {fileID: 291188335}
 --- !u!61 &1337953956
 BoxCollider2D:
@@ -2406,7 +2403,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsToAdd: 1
-  wordToShow: 
   wordSoundEffect: {fileID: 291188335}
 --- !u!61 &1474510947
 BoxCollider2D:
@@ -3005,7 +3001,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsToAdd: 1
-  wordToShow: homework
   wordSoundEffect: {fileID: 291188335}
 --- !u!61 &1883890486
 BoxCollider2D:

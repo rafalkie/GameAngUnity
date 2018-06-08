@@ -38905,7 +38905,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press Enter To Contiune
+  m_Text: "Wci\u015Bnij ENTER aby kontynuowa\u0107."
 --- !u!222 &973004816
 CanvasRenderer:
   m_ObjectHideFlags: 0
